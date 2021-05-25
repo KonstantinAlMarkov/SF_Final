@@ -1,0 +1,51 @@
+.programList{
+    max-height: 350px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.users{
+    width: 100%;
+    background-color: white;
+}
+
+.users>tbody{
+      height:300px;
+      overflow-y:auto;
+      width: 100%;
+}
+    
+thead {
+    display:block;
+  }
+  tbody {
+    display:block;
+    overflow-y:scroll;
+  }
+  td, th {
+    width: 180px;
+  }
+  table {
+    width: auto;
+}
+
+#filterSaveBtn{
+    text-align: center;
+}
+
+.profitRow, .userRow, .statsRow{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px !important;;
+}
+
+.cancel{
+  margin-right: 5px;
+  width: 120px;
+}
+
+.save{
+  width: 120px;    
+}
